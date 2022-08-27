@@ -1,0 +1,11 @@
+a internet foi criada com objetivo inicial de ser um grande backup de dados militares do estados unidos, já que em meio a guerra fria eles estavam inseguros com o avanço tecnologico da união soviética que tinha acabado de lançar o sputnik ( o primeiro satelitet artificial ).
+
+o protocolo de rede NCP foi criado com objetivo de criar um idioma unico para que os quatro computadores que faziam parte desse "backup" pudessem conversar entre si já que eles eram de empresas diferentes e por esse motivo as linguagens também.
+
+SMTP, POP3, IMAP são protocolos de recebimento e envios de emails.
+
+Gopher é um protocolo de envio de hipertexto simples.
+
+FTP protocolo especializado em tranferência de arquivos.
+
+HTTP é um protocolo especializado em hipertexto.

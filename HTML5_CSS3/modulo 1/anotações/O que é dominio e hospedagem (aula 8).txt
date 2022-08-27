@@ -1,0 +1,5 @@
+Dominio = é o nome que identifica o site, não pode existir 2 dominios com o mesmo nome.
+
+hospagem = espaço para armazenar os arquivos, local onde o site ficará "guardado".
+
+uma URL é composta por sub-dominio (www.), dominio (youtube.), top level domain - TLD (.com) e caminho (/Corinthians).

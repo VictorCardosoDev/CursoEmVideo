@@ -1,0 +1,3 @@
+UTF-8 ?
+
+os computadores leem os bits 0 e 1 fazendo com que os sinais emitidos sejam quadrados e para se comunicar com a rede é feita a modulação que tranforma esses sinais quadrados em ondas senoidais e a demodulação que é tranformar a senoide em sinais quadrados, o aparelho que faz toda essa parte é o modem.

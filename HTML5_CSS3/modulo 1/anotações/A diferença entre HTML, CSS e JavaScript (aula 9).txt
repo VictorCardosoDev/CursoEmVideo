@@ -1,0 +1,7 @@
+HTML é uma linguagem focada em conteúdo (textos, imagens, videos, tabelas, listas, etc).
+
+CSS é uma liguagem com foco em design.
+
+JavaScript é uma linguagem de programação focada em interações.
+
+no CSS no caso de h1 { font-family: Arial; }, "h1" = seletor, "font-family: arial;" = declaração, "font-family:" = propriedade e "Arial;" = valor.
