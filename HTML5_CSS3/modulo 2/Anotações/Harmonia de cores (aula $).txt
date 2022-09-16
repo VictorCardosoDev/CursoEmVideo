@@ -1,0 +1,19 @@
+Cores Primárias: Amarelo, Azul e Vermelho;
+
+Cores Segundárias: Laranja, Violeta e Verde;
+
+Cores Terciárias: Amarelo-alaranjado, vermelho-alaranjado, vermelho-arroxeado, azul-arroxeado, azul-esverdeado, amarelo-esverdeado;
+
+Cores complementares: As cores complementares são aquelas que estão posicionadas nas extremidades opostas do circulo cromático e por isso também são as que mais geram contraste entre si.
+
+Cores análogas: As cores análogas são aquelas que estão próximas umas das outras no circulo cromático e por isso são semelhantes;
+
+Cores Intercaladas: É quando se pegam cores com um espaço entre cada.
+
+Cores Triádicas: É a aharmonia que se baseia no uso de três cores equidistanets do círculo cromático.
+
+Cores em quadrado: Você usa a cor pulando duas casas do círculo cromático sempre.
+
+Cores tetrádicas: Basicamente se escolhe duas cores e as cores complementares das mesmas.
+
+Monocromia: Trabalha com apenas uma cor apenas mudando a saturação e luminosidade.
