@@ -1,0 +1,6 @@
+color.adobe.com é um site que ajuda agilizar a escolha de uma paleta de cores.
+Ainda é possível pegar uma imagem, colocar no site e na hora é feita uma paleta de cores baseada na imagem, com possilidade de fazer um gradiente com essa paleta.
+
+Paletton.com também é uma ferramenta pra ajudar nas escolhas de paletas o diferencial desse site é que ja tem uma função de "previem" do site com as cores.
+
+coolors.co é uma outra ferramenta de paleta mas nela o site indica paletas aleatórais mas também é possível travar em uma cor e o algoritmo indica paletas baseadas nela.
