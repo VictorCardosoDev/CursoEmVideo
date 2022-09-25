@@ -5,6 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(53, 47, 47);
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article > aside {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -23,12 +71,22 @@
         </section>
 
         <section id="noticias">
-            
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eum culpa pariatur quia vel, voluptatum maiores ipsa aliquid, quaerat, at odio suscipit eveniet voluptatibus est placeat molestias amet nesciunt expedita!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
         </section>
     </main>
 
     <footer>
-
+        <h1>Criado por VictorCardosoDev</h1>
     </footer>
 </body>
 </html>
