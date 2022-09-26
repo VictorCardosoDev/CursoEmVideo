@@ -9,6 +9,7 @@
 }
 
 body {
+    background-attachment: fixed;
     background-color: #84E1AD;
     margin: 0px;
 }
@@ -29,6 +30,7 @@ h3 {
 
 p {
     text-indent: 30px;
+    text-align: justify;
 }
 
 header {
@@ -51,6 +53,7 @@ header > p {
     font: normal 100 1.1em arial, helvetica, sans-serif;
     margin: auto;
     color: rgba(255, 255, 255, 0.575);
+    text-align: center;
 }
 
 header > menu {
