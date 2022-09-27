@@ -33,6 +33,15 @@ p {
     text-align: justify;
 }
 
+a {
+    text-decoration: none;
+    color: #e90000;
+}
+
+a:hover {
+    font-size: 18px;
+}
+
 header {
     text-align: center;
     background-image: linear-gradient(to top, #1A5C38, #25824F, #37C878);
@@ -66,6 +75,11 @@ menu > a {
     text-decoration: none;
     color: white;
     padding: 5px;
+}
+
+menu > a:hover {
+    background-color: #21c069;
+    border-radius: 5px;
 }
 
 main {
@@ -117,4 +131,5 @@ footer {
 
 footer > p {
     margin: 0px;
+    text-align: center;
 }
