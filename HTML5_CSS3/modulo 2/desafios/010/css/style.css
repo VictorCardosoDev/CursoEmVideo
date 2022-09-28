@@ -66,17 +66,17 @@ header > h2 {
 
 header > p {
     font: normal 100 1.1em arial, helvetica, sans-serif;
-    margin: auto;
+    margin: 15px;
     color: rgba(255, 255, 255, 0.575);
     text-align: center;
 }
 
-header > menu {
+header > nav {
     text-align: left;
 }
 
 
-menu > a {
+nav > a {
     font: normal bold 16px arial, helvetica, sans-serif;
     text-decoration: none;
     color: white;
@@ -84,13 +84,13 @@ menu > a {
     
 }
 
-menu > a:hover {
+nav > a:hover {
     background-color: #21c069;
     border-radius: 5px;
 }
 
 main {
-    max-width: 800px;
+    max-width: 950px;
     min-width: 250px;
     margin: 0px auto auto auto;
     background-color: white;
