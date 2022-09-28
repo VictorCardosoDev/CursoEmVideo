@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../imagens/space.jpg);
+    text-align: center;
+}
+
+/*div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div > img {
+    margin: 0;
+}*/
+
+
+div > img {
+max-width: 350px;
+max-height: 350px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%)}
