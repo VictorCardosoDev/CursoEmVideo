@@ -43,8 +43,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #e90000d2;
-    background-color: rgba(207, 64, 64, 0.39);
+    color: red;
     padding: 2px 6px;
 }
 
@@ -54,7 +53,6 @@ a.externo::after {
 
 a:hover {
     text-decoration: underline;
-    color: red;
 }
 
 header {
@@ -135,9 +133,20 @@ img {
 }
 
 #video {
-    text-align: center;
     background-color: #1A5C38;
-    padding: 10px 40px;
+    padding: 10px;
+    padding-bottom: 55%;
+    position: relative;
+    margin:0px auto ;
+    height: 0px;
+}
+
+#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 aside {
