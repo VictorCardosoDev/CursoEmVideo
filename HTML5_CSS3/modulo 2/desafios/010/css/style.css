@@ -37,15 +37,24 @@ h3 {
 p {
     text-indent: 30px;
     text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.5em;
 }
 
 a {
     text-decoration: none;
-    color: #e90000;
+    color: #e90000d2;
+    background-color: rgba(207, 64, 64, 0.39);
+    padding: 2px 6px;
+}
+
+a.externo::after {
+    content: '\00A0\1F517';
 }
 
 a:hover {
-    background-color: rgba(0, 0, 0, 0.418);
+    text-decoration: underline;
+    color: red;
 }
 
 header {
@@ -81,7 +90,8 @@ nav > a {
     text-decoration: none;
     color: white;
     padding: 5px;
-    
+    font-weight: bold;
+    transition-duration: .25s;
 }
 
 nav > a:hover {
@@ -120,16 +130,20 @@ img {
     width: 100%;
 }
 
+#bugdroid {
+    max-width: 350px;
+}
+
 #video {
     text-align: center;
     background-color: #1A5C38;
     padding: 10px 40px;
 }
 
-#versoesandroid {
-    background-color: #C5EBD6;
-    padding: 10px;
+aside {
+    box-shadow: 3px 3px 8px black;
     border-radius: var(--bordasbot);
+    padding: 10px;
 }
 
 aside > h2 {
@@ -141,9 +155,14 @@ aside > h2 {
     border-radius: var(--bordastop);
 }
 
-ul {
-    display: inline-block;
-    margin-right: 150px;
+#versoesandroid {
+    background-color: #C5EBD6;
+    padding: 10px;
+    border-radius: var(--bordasbot);
+}
+
+#versoesandroid > ul {
+    columns: 2;
 }
 
 footer {
@@ -157,4 +176,14 @@ footer {
 footer > p {
     margin: 0px;
     text-align: center;
+}
+
+footer a {
+    font-weight: bold;
+    background-color: #1A5C38;
+}
+
+footer a:hover {
+    border-radius: 5px;
+    background-color: black;
 }
