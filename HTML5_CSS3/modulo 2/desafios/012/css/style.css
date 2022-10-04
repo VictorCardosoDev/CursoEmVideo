@@ -31,11 +31,9 @@ div {
 }
 
 #flor {
-    background-image: url(../imagens/background001.jpg);
-    background-size: cover ;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    
+    background: black url(../imagens/background001.jpg) center no-repeat fixed;
+    background-size: cover;
 }
 
 #livro {
@@ -70,4 +68,12 @@ div > p {
     line-height: 2em;
     font-size: 1.5em;
     text-align: left;
+}
+
+article {
+    background-color: rgba(0, 0, 0, 0.600);
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
 }
