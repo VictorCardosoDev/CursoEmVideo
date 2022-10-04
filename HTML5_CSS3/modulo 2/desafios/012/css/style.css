@@ -77,3 +77,23 @@ article {
     padding: 15px;
     border-radius: 10px;
 }
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer > p {
+    margin: 0px;
+    font: normal normal 16px Arial, Helvetica, Sans-serif; 
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
