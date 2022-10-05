@@ -2,7 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
 
+:root {
+    --padrao: Arial, Helvetica, sans-serif;
+    --font1: 'Passion One', Arial, Helvetica, Sans-serif;
+    --txt: 'Sriracha', Arial, Helvetica, sans-serif;
+}
+
 body {
+    font-family: var(--padrao);
     text-align: center;
     margin: 0px;
 }
@@ -11,6 +18,10 @@ header {
     background-color: black;
     color: white;
     padding: 50px;
+}
+
+header > p {
+    margin: 0px;
 }
 
 main {
@@ -24,14 +35,15 @@ main > header {
 }
 
 h1 {
-    font-family: 'Passion One', Arial, Helvetica, sans-serif;
+    font-family: var(--font1);
     font-weight: 700;
-    font-size: 3em;
+    font-size: 3.2em;
+    margin: 10px;
 }
 
 p {
     font-weight: lighter;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 a {
@@ -44,6 +56,7 @@ a:hover {
 }
 
 section {
+    font-family: var(--txt);
     padding: 10vh 30px 10vh 30px;
     background-color: white; 
     text-align: left;
@@ -51,10 +64,8 @@ section {
 }
 
 section > p {
-    font-family: 'Sriracha', Arial, Helvetica, sans-serif;
     font-weight: 1000;
     line-height: 2em;
-    font-size: 1.5em;
     text-align: left;
 }
 
@@ -72,7 +83,7 @@ section > p {
 }
 
 pre {
-    font-family: 'Sriracha', Arial, Helvetica, sans-serif;
+    font-family: var(--txt);
     font-weight: 1000;
     line-height: 2em;
     font-size: 1.5em;
@@ -91,10 +102,10 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 footer > p {
     margin: 0px;
-    font: normal normal 16px Arial, Helvetica, Sans-serif; 
+    font: normal normal 1.2em Arial, Helvetica, Sans-serif; 
 }
