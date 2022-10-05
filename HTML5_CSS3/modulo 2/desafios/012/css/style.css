@@ -15,7 +15,7 @@ header {
 
 main {
     margin: auto;
-    width: 1200px;
+    max-width: 1200px;
     border: 3px solid black;
 }
 
@@ -23,11 +23,39 @@ main > header {
     text-align: center;
 }
 
-div {
-    padding: 30px;
+h1 {
+    font-family: 'Passion One', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 2em;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: red;
+}
+
+section {
+    padding: 10vh 30px 10vh 30px;
     background-color: white; 
     text-align: left;
     line-height: 2em;
+}
+
+section > p {
+    font-family: 'Sriracha', Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    line-height: 2em;
+    font-size: 1.5em;
+    text-align: left;
 }
 
 #flor {
@@ -43,12 +71,6 @@ div {
     background-attachment: fixed;
 }
 
-h1 {
-    font-family: 'Passion One', Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 3em;
-}
-
 pre {
     font-family: 'Sriracha', Arial, Helvetica, sans-serif;
     font-weight: 1000;
@@ -57,20 +79,7 @@ pre {
     text-align: left;
 }
 
-p {
-    font-weight: lighter;
-    font-size: 2em;
-}
-
-div > p {
-    font-family: 'Sriracha', Arial, Helvetica, sans-serif;
-    font-weight: 1000;
-    line-height: 2em;
-    font-size: 1.5em;
-    text-align: left;
-}
-
-article {
+.imagem {
     background-color: rgba(0, 0, 0, 0.600);
     color: white;
     display: inline-block;
@@ -88,12 +97,4 @@ footer {
 footer > p {
     margin: 0px;
     font: normal normal 16px Arial, Helvetica, Sans-serif; 
-}
-
-a {
-    color: white;
-}
-
-a:hover {
-    color: red;
 }
