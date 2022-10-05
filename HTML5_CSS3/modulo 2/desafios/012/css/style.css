@@ -26,7 +26,7 @@ header > p {
 
 main {
     margin: auto;
-    max-width: 1200px;
+    max-width: 1450px;
     border: 3px solid black;
 }
 
@@ -71,15 +71,11 @@ section > p {
 
 #flor {
     
-    background: black url(../imagens/background001.jpg) center no-repeat fixed;
-    background-size: cover;
+    background: black url(../imagens/background001.jpg) right center no-repeat fixed;
 }
 
 #livro {
-    background-image: url(../imagens/background002.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: black url(../imagens/background002.jpg) center center no-repeat fixed;
 }
 
 pre {
@@ -91,11 +87,17 @@ pre {
 }
 
 .imagem {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.566);
+    background-size: cover;
+}
+
+.imagem > p{
     background-color: rgba(0, 0, 0, 0.600);
     color: white;
     display: inline-block;
     padding: 15px;
     border-radius: 10px;
+    text-shadow: 2px 2px 0px black;
 }
 
 footer {
