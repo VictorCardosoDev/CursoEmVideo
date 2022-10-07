@@ -12,6 +12,14 @@
             border-collapse: collapse;
         }
 
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: black;
+            color: red;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
@@ -33,6 +41,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -42,17 +51,18 @@
     -->
 
     <table>
+        <caption>População dos Estados Brasileiros</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
 
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <td class="num">466.649.132</td>
+                <td class="num">46.649.132</td>
             </tr>
             <tr>
                 <td>Minas Gerais</td>
@@ -161,8 +171,8 @@
         </tbody>
 
         <tfoot>
-            <th>Total de habitantes</th>
-            <td><strong>0000</strong></td>
+            <th scope="row">Total de habitantes</th>
+            <td class="num"><strong>0001</strong></td>
         </tfoot>
     </table>
 </body>
