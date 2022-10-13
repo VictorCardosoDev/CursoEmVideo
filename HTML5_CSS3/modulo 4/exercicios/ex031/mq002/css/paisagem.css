@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /*Configurações com tela deitada (paisagem/landscape)*/
+
+body {
+    background: url(../imagens/cev-landscape.jpg) no-repeat left bottom;
+    background-size: contain;
+}
