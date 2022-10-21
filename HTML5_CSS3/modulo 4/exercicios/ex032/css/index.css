@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+form {
+    background-color: purple;
+    display: inline-block;
+    padding: 5px;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
