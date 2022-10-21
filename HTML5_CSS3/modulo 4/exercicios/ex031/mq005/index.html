@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="css/index.css" screen="all">
     <link rel="stylesheet" href="css/mediaquery.css">
     <title>Media Queryy</title>
@@ -12,13 +13,16 @@
 
     <header>
         <h1>Meu site</h1>
-        <menu>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <menu id="opcoes">
             <ul>
-                <li><a href="">Opção 1</a></li>
-                <li><a href="">Opção 2</a></li>
-                <li><a href="">Opção 3</a></li>
-                <li><a href="">Opção 4</a></li>
-                <li><a href="">Opção 5</a></li>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
             </ul>
         </menu>
     </header>
@@ -31,5 +35,16 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam facere ad quaerat. Amet veniam eveniet, consequuntur voluptatum mollitia sunt molestiae, nam eius necessitatibus ab praesentium nihil tempore excepturi officia omnis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsum cumque debitis iure ipsam a porro. Maiores perspiciatis nesciunt repudiandae accusantium pariatur ad mollitia sunt eveniet architecto, velit aut ut! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptas, consequatur quam reprehenderit delectus esse accusantium iste nulla asperiores, quaerat vero laborum ipsa, impedit deserunt molestias in nam officia alias.</p>
         </article>
     </main>
+
+    <script>
+        function clickMenu() {
+            if (opcoes.style.display == 'block') {
+                opcoes.style.display = 'none';
+            }
+            else {
+                opcoes.style.display = 'block';
+            }
+        }
+    </script>
 </body>
 </html>
