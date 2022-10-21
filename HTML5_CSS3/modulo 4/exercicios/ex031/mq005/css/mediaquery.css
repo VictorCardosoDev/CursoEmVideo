@@ -7,15 +7,19 @@
     }
 
     #burguer {
-        display: ;
+        display: none;
+    }
+    
+    menu {
+        display: block;
+        text-align: left;
     }
 
     li {
-        display: inline;
+        display: inline-block;
     }
 
     li a {
-        display: inline-block;
         border-top: none;
     }
     

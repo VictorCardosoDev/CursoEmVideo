@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/mediaquery.css">
     <title>Media Queryy</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
 
     <header>
         <h1>Meu site</h1>
@@ -43,6 +43,15 @@
             }
             else {
                 opcoes.style.display = 'block';
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                opcoes.style.display = 'block';
+            }
+            else {
+                opcoes.style.display = 'none';
             }
         }
     </script>
