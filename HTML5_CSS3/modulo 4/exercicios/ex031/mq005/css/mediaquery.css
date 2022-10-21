@@ -1,13 +1,47 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) {
+
+    main {
+        width: 700px;
+    }
+
+    #burguer {
+        display: ;
+    }
+
+    li {
+        display: inline;
+    }
+
+    li a {
+        display: inline-block;
+        border-top: none;
+    }
     
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
+    header h1 {
+        color: red;
+    }
+
+    main {
+        width: 800px;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
-    
+
+    header h1 {
+        color: yellow;
+    }
+
+    main {
+        width: 1000px;
+    }
+
+
 }
