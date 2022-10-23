@@ -5,36 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css" screen="all">
+    <link rel="stylesheet" href="css/mediaq.css">
     <title>Media Query no formulário de login</title>
 </head>
 <body>
     <main>
-        <article>
-            <h1>login</h1>
-            
-            <p>Seja bem-vindo(a) novaente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        <section id="login">
 
-            <form action="cadastro.php">
-                <p>
-                    <label for="email" class="cemail">
+            <div id="img"></div>
+
+            <div id="form">
+                <h1>login</h1>
+                
+                <p>Seja bem-vindo(a) novaente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
                         <span class="material-symbols-outlined">person</span>
-                    </label>
-                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail" class="cemail">
-                </p>
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail" autocomplete="email" required maxlength="30">
+                        <label for="email"></label>
+                    </div>
 
-                <p>
-                    <label for="senha" class="csenha">
+                    <div class="campo">
                         <span class="material-symbols-outlined">key</span>
-                    </label>
-                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" class="csenha">
-                </p>
-            </form>
+                        <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required minlength="8" maxlength="20">
+                        <label for="senha"></label>
+                    </div>
 
-            <button >Entrar</button>
-            
-                <a href="">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
-        </article>
+                    <input type="submit" value="Entrar" id="entrar">
+                    <a href="">
+                        Esqueci a senha
+                        <span class="material-symbols-outlined" id="esqueci">mail</span>
+                    </a>
+                </form>
+
+            </div>
+        </section>
     </main>
 </body>
 </html>
