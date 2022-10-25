@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterando o tipo da variável</title>
+</head>
+<body>
+    <h1>Alterando o tipo da variável digitada</h1>
+
+    <script>
+        let n1 = prompt("Digite um número: "); //String
+        let n2 = prompt("Digite um número: "); //String
+        let soma = n1 + n2;
+        alert("A concatenação desses dois valores é: " + soma);
+        alert("Agora usando o parseInt");
+        /* 
+            "+" serve para adição e concatenação; 
+            (number + number) ele faz adição;
+            (string + string) é feita a concatenação;
+        */
+
+        let int1 = Number.parseInt(n1);
+        let int2 = Number.parseInt(n2);
+        let soma2 = int1 + int2;
+        alert(`A soma entre os valores ${int1} e ${int2} é igual a  ${soma2}`);
+        let tipo = String(soma2);
+        alert(typeof tipo);
+
+        let num1 = parseInt(prompt("Digite outro número: "));
+        let num2 = parseInt(prompt("Digite outro número: "));
+        let soma3 = num1 + num2;
+        alert(soma3);
+        let type = soma3.toString();
+        alert(typeof type);
+
+        let filme = prompt("Digite o nome de algum filme");
+        alert("O filme " + filme + " é ótimo!");
+    </script>
+</body>
+</html>
