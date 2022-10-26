@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+
+    <style>
+        #area {
+            position: absolute;
+            font:normal 20px Arial;
+            background-color: green;
+            color: white;
+            width: 300px;
+            height: 300px;
+            line-height: 300px;
+            text-align: center;
+            margin: auto;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="area">
+        Interaja...
+    </div>
+
+    <script>
+        let a = document.getElementById('area');
+
+        a.addEventListener('mouseenter', entrar);
+        a.addEventListener('click', clicar);
+        a.addEventListener('mouseout', saiu);
+
+        function entrar() {
+            a.innerText = 'Clique nesta mensagem';
+            a.style.backgroundColor = 'black';
+            a.style.color = 'yellow';
+        }
+
+        function clicar() {
+            a.innerText = 'Ocorreu um click';
+            a.style.backgroundColor = 'yellow';
+            a.style.color = 'black';
+        }
+
+        function saiu() {
+            a.innerText = 'O mouse saiu';
+            a.style.backgroundColor = 'green';
+        }
+    </script>
+</body>
+
+</html>
