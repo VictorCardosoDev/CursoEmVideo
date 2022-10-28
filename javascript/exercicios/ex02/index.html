@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificando idade</title>
+    <style>
+        body {
+            background-color: rgba(4, 0, 243, 0.781);
+        }
+
+        h1 {
+            text-align: center;
+            margin: auto;
+            margin-top: 100px;
+        }
+
+        div#principal {
+            position: absolute;
+            background-color: white;
+            padding: 20px;
+            width: 500px;
+            height: 400px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        p {
+            margin-top: 30px;
+        }
+
+        div#img {
+            background-color: black;
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Verificador de idade</h1>
+
+    <div id="principal">
+        <p>
+            <label for="ano">Ano de nascimento: </label>
+            <input type="number" name="ano" id="ano" required>
+        </p>
+
+        <p>
+            <label for="sexo">Sexo: </label>
+            <input type="radio" name="sexo" id="fem" value="Fem">Feminino
+            <input type="radio" name="sexo" id="mas" value="mas">Masculino
+        </p>
+
+        <p>
+            <input type="button" value="Verificar" onclick="verificar()" class="btn">
+        </p>
+
+        <p class="txt">lajdlfnsfzdmksklzsdfjkzsfnjknfjksdzflfnskfjnjjfznjdn</p>
+        
+        <div id="img"></div>
+    </div>
+
+    <script>
+        function verificar() {
+            let date = new Date();
+            let anoHoje = date.getFullYear(); 
+
+            let year = parseInt(document.getElementById('ano').value);
+            let idade = anoHoje - year;
+
+            let mas = document.getElementById('mas').value;
+            let fem = document.getElementById('fem').value;
+
+        }
+    </script>
+</body>
+</html>
