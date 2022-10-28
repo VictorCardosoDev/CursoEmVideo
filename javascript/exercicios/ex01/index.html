@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro exercício de JS</title>
+    <style>
+        body {
+            background-color: gray;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        #principal {
+            position: absolute;
+            width: 600px;
+            height: 450px;
+            background-color: white;
+            margin: auto;
+            border-radius: 15px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        p {
+            font-size: 1.3em;
+            font-family: sans-serif;
+        }
+
+        #imagem {
+            position: absolute;
+            background-color: black;
+            width: 270px;
+            height: 270px;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        a {
+            color: white;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Hora do Dia</h1>
+
+    <div id="principal">
+        <p>Agora são <strong id="info-hora"></strong></p>
+        <div id="imagem">
+
+        </div>
+    </div>
+    <p>Feito por <a href="https://github.com/victorcardosodev">Victor Cardoso</a> </p>
+
+    <script>
+        let date = new Date();
+        let hora = date.getHours();
+        let body = document.querySelector('body');
+        let principal = document.getElementById('principal');
+        let img = document.getElementById('imagem');
+        let info = document.getElementById('info-hora').innerHTML = `${hora} horas`;
+
+        
+        if (hora >= 18 && hora <= 24 || hora >= 00 && hora < 6) {
+            body.style.backgroundColor = 'black';
+            body.style.color = 'white';
+            principal.style.color = 'black';
+            img.style.backgroundImage = 'url(noite.jpg)';
+
+        } else if (hora < 12) {
+            body.style.backgroundColor = 'orange';
+            img.style.backgroundImage = 'url(manha.jpg)';
+        
+        } else if (hora < 18 ) {
+            body.style.backgroundColor = 'blue';
+            img.style.backgroundImage = 'url(tarde.jpg)';
+        }
+    </script>
+</body>
+</html>
