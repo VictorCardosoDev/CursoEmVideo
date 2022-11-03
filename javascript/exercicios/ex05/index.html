@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Analisador</title>
+</head>
+
+<body>
+    <header>
+        <h1>Analisador de números</h1>
+    </header>
+
+    <section id="principal">
+            <div>
+                <p>
+                    <label for="numero">Número entre 1 e 100: </label>
+                    <input type="number" name="numero" id="numero">
+                
+                    <input type="button" value="Adicionar" onclick="adicionar()">
+                </p>
+            </div>
+
+            <div>
+                <select name="tabela" id="tabela" size="10">
+                    <option>Digite um número acima</option>
+                </select>
+                <p><input type="button" value="Finalizar" onclick="finalizar()"></p>
+            </div>
+
+    </section>
+
+    <footer>    
+        <p>Criado por <a href="https://github.com/victorcardosodev" target="_blank" rel="external">Victor Cardoso</a></p>
+    </footer>
+
+    <script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>
