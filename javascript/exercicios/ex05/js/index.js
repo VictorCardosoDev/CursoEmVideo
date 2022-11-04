@@ -4,7 +4,7 @@ let res = document.getElementById('res');
 let valores = [];
 
 function isNumero(n) {
-    if (Number(n) >= 1 && Number(n) <= 100) {
+    if (parseInt(n) >= 1 && parseInt(n) <= 100) {
         return true;
     } else {
         return false;
@@ -20,7 +20,7 @@ function inLista(n, 1) {
 }
   
 function adicionar() {
-    if (isNumero(num)) {
+    if (isNumero(num)) && !inLista(num, valores) {
         valores.push(Number(num));
         let item = document.createElement('option');
         item.text = `Valor ${num} adicionado`;
